@@ -2,35 +2,41 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <title>Studio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" href="./css/style.css"/>
 </head>
 <body>
     <!--Header section-->
-    <header>
-<div>
+    <header class="header">
+<div class="header__logo">
     <a href="#">WebStudio</a>
 </div>
-<nav>
+<nav class="header__navigation">
     <ul>
         <li><a href="#">Studio</a></li>
         <li><a href="#">Portofolio</a></li>
         <li><a href="#">Contacts</a></li>
     </ul>
 </nav>
-<address>
+<div class="header__info">
     <a href="tel:+12127724150">+1 212-772-4150</a>
 <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-</address>
+</div>
     </header>
     <!--Main section-->
     <main>
 <!--Hero section-->
-<section>
-    <h1>EFFECTIVE SOLUTIONS FOR YOUR BUSINESS</h1>
-    <button type="button">Request our service</button>
+<section class="hero-section">
+    <h1 class="hero-section__title">EFFECTIVE SOLUTIONS FOR <br> YOUR BUSINESS</h1>
+    <button class="header__request button" type="button">Request our service</button>
     </section>
 <!--About section-->
-<div>
+<div class="main__about-section">
     <ul>
         <li>
             <p><strong>ATTENTION TO DETAILS</strong></p>
@@ -50,15 +56,15 @@
     </ul>
     </div>
 <!--What we do section-->
-<section>
-    <h2>What we do</h2>
+<section class="main__what-we-do-section">
+    <h2 class="main__what-we-do-section__title">What we do</h2>
     <img src="images/box1.jpg" width="370" height="294" alt="security code">
     <img src="images/box2.jpg" width="370" height="294" alt="mobile security">
     <img src="images/box3.jpg" width="370" height="294" alt="color palette">
 </section>
 <!--Team section-->
-<section>
-    <h2>Our Team</h2>
+<section class="main__team-section">
+    <h2 class="main__team-section__title">Our Team</h2>
     <div>
         <img src="images/img(4)(1).jpg" width="270" height="260" alt="Christopher Walker">
         <p><b>Christopher Walker</b></p>
@@ -82,11 +88,11 @@
 </section>
     </main>
     <!--Footer section-->
-    <footer>
+    <footer class="footer-section">
 <div>
     <a href="#">WebStudio</a>
 </div>
-<address>
+<address class="footer-section__address">
     <p>695 Park Ave, NY 10065, USA</p>
     <div><a href="mailto:info@devstudio.com">info@devstudio.com</a></div>
     <div><a href="tel:+12127724150">+1 212-772-4150</a></div>
